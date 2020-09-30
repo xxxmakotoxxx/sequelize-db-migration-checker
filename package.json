@@ -1,0 +1,25 @@
+{
+  "name": "sequelize-db-migration-checker",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "migration-checker": "bin/migration-checker.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xxxmakotoxxx/sequelize-db-migration-checker.git"
+  },
+  "author": "Makoto Nakamura",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xxxmakotoxxx/sequelize-db-migration-checker/issues"
+  },
+  "homepage": "https://github.com/xxxmakotoxxx/sequelize-db-migration-checker#readme",
+  "dependencies": {
+    "mysql2": "^2.2.5",
+    "yargs": "^16.0.3"
+  }
+}
